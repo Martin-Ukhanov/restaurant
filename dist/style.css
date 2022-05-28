@@ -54,6 +54,7 @@ header ul {
 
 header ul li:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 /* Main */
