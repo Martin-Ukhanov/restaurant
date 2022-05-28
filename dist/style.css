@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
+:root {
+    --soybean: #D7C49EFF;
+    --eclipse: #343148FF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--soybean);
+}
+
+#content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header */
+header {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    color: var(--soybean);
+    background-color: var(--eclipse);
+}
+
+header .logo-container {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+header .logo-container img {
+    width: 4rem;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    column-gap: 3rem;
+    font-size: 1.5rem;
+}
+
+header ul li:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+main .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--eclipse);
+}
+
+main .home img {
+    width: 40rem;
+    position: absolute;
+    opacity: 0.1;
+}
+
+/* Footer */
+footer {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--soybean);
+    background-color: var(--eclipse);
+}

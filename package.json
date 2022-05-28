@@ -1,0 +1,25 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "Restaurant website created for The Odin Project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martin5429/restaurant.git"
+  },
+  "author": "Martin Ukhanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martin5429/restaurant/issues"
+  },
+  "homepage": "https://github.com/Martin5429/restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
