@@ -3,7 +3,7 @@ const createHome = () => {
     home.classList.add('home');
 
     const logo = document.createElement('img');
-    logo.setAttribute('src', '../dist/images/logo_eclipse.svg');
+    logo.setAttribute('src', 'images/logo_eclipse.svg');
     logo.setAttribute('alt', 'logo');
     
     const heading = document.createElement('h1');

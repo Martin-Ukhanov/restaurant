@@ -18,7 +18,7 @@ const createMenu = () => {
     porkOriginal.classList.add('item');
 
     const porkOriginalImage = document.createElement('img');
-    porkOriginalImage.setAttribute('src', '../dist/images/pork_original.jpeg');
+    porkOriginalImage.setAttribute('src', 'images/pork_original.jpeg');
     porkOriginalImage.setAttribute('alt', 'Pork Original');
 
     const porkOriginalHeading = document.createElement('h2');
@@ -36,7 +36,7 @@ const createMenu = () => {
     porkShoyu.classList.add('item');
 
     const porkShoyuImage = document.createElement('img');
-    porkShoyuImage.setAttribute('src', '../dist/images/pork_shoyu.jpeg');
+    porkShoyuImage.setAttribute('src', 'images/pork_shoyu.jpeg');
     porkShoyuImage.setAttribute('alt', 'Pork Shoyu');
 
     const porkShoyuHeading = document.createElement('h2');
@@ -54,7 +54,7 @@ const createMenu = () => {
     porkMiso.classList.add('item');
 
     const porkMisoImage = document.createElement('img');
-    porkMisoImage.setAttribute('src', '../dist/images/pork_miso.jpeg');
+    porkMisoImage.setAttribute('src', 'images/pork_miso.jpeg');
     porkMisoImage.setAttribute('alt', 'Pork Miso');
 
     const porkMisoHeading = document.createElement('h2');
@@ -72,7 +72,7 @@ const createMenu = () => {
     porkSG.classList.add('item');
 
     const porkSGImage = document.createElement('img');
-    porkSGImage.setAttribute('src', '../dist/images/pork_SG.jpeg');
+    porkSGImage.setAttribute('src', 'images/pork_SG.jpeg');
     porkSGImage.setAttribute('alt', 'Pork Spicy Garlic');
 
     const porkSGHeading = document.createElement('h2');
@@ -111,7 +111,7 @@ const createMenu = () => {
     chickenOriginal.classList.add('item');
 
     const chickenOriginalImage = document.createElement('img');
-    chickenOriginalImage.setAttribute('src', '../dist/images/chicken_original.jpeg');
+    chickenOriginalImage.setAttribute('src', 'images/chicken_original.jpeg');
     chickenOriginalImage.setAttribute('alt', 'Chicken Original');
 
     const chickenOriginalHeading = document.createElement('h2');
@@ -129,7 +129,7 @@ const createMenu = () => {
     chickenShoyu.classList.add('item');
 
     const chickenShoyuImage = document.createElement('img');
-    chickenShoyuImage.setAttribute('src', '../dist/images/chicken_shoyu.jpeg');
+    chickenShoyuImage.setAttribute('src', 'images/chicken_shoyu.jpeg');
     chickenShoyuImage.setAttribute('alt', 'Chicken Shoyu');
 
     const chickenShoyuHeading = document.createElement('h2');
@@ -147,7 +147,7 @@ const createMenu = () => {
     chickenMiso.classList.add('item');
 
     const chickenMisoImage = document.createElement('img');
-    chickenMisoImage.setAttribute('src', '../dist/images/chicken_miso.jpeg');
+    chickenMisoImage.setAttribute('src', 'images/chicken_miso.jpeg');
     chickenMisoImage.setAttribute('alt', 'Chicken Miso');
 
     const chickenMisoHeading = document.createElement('h2');
@@ -165,7 +165,7 @@ const createMenu = () => {
     chickenSJ.classList.add('item');
 
     const chickenSJImage = document.createElement('img');
-    chickenSJImage.setAttribute('src', '../dist/images/chicken_SJ.jpeg');
+    chickenSJImage.setAttribute('src', 'images/chicken_SJ.jpeg');
     chickenSJImage.setAttribute('alt', 'Chicken Spicy Jalapeño');
 
     const chickenSJHeading = document.createElement('h2');
