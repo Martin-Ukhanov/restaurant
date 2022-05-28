@@ -3,18 +3,18 @@ const createHome = () => {
     home.classList.add('home');
 
     const logo = document.createElement('img');
-    logo.setAttribute('src', '../dist/images/logo-eclipse.svg');
+    logo.setAttribute('src', '../dist/images/logo_eclipse.svg');
     logo.setAttribute('alt', 'logo');
     
-    const text1 = document.createElement('h1');
-    text1.textContent = 'Exceptional Ramen';
+    const heading = document.createElement('h1');
+    heading.textContent = 'Exceptional Ramen';
 
-    const text2 = document.createElement('h2');
-    text2.textContent = 'Taste The Difference';
+    const text = document.createElement('h2');
+    text.textContent = 'Taste The Difference';
 
     home.appendChild(logo);
-    home.appendChild(text1);
-    home.appendChild(text2);
+    home.appendChild(heading);
+    home.appendChild(text);
 
     return home;
 }

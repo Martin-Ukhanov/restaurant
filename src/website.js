@@ -6,7 +6,7 @@ const createHeader = () => {
     logoContainer.classList.add('logo-container');
 
     const logo = document.createElement('img');
-    logo.setAttribute('src', '../dist/images/logo-soybean.svg');
+    logo.setAttribute('src', '../dist/images/logo_soybean.svg');
     logo.setAttribute('alt', 'logo');
 
     const heading = document.createElement('h1');
