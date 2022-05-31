@@ -3,7 +3,6 @@
 :root {
     --soybean: #D7C49EFF;
     --eclipse: #343148FF;
-    --border-width: 4px;
     --border-radius: 1rem;
 }
 
@@ -102,15 +101,57 @@ main .menu .container .grid {
 
 main .menu .grid .item img {
     width: 100%;
-    border: var(--border-width) solid var(--eclipse);
+    border: 4px solid var(--eclipse);
     border-radius: var(--border-radius);
 }
 
 .line {
     width: 80%;
-    height: var(--border-width);
+    height: 4px;
     background-color: var(--eclipse);
     border-radius: var(--border-radius);
+}
+
+/* Contact */
+main .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+main .contact .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .contact .contact-form {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    font-size: 1.2rem;
+    border: 2px solid var(--eclipse);
+    border-radius: var(--border-radius);
+}
+
+main .contact input, main .contact textarea, main .contact button {
+    padding: 10px;
+    background-color: var(--soybean);
+    border: 2px solid var(--eclipse);
+    border-radius: var(--border-radius);
+    color: var(--eclipse);
+    font-family: inherit;
+    font-size: 100%;
+    outline: none;
+    resize: none;
+}
+
+main .contact button:hover {
+    filter: brightness(95%);
 }
 
 /* Footer */
