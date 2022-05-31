@@ -35,7 +35,7 @@ const createContact = () => {
     emailInput.required = true;
 
     const questionInput = document.createElement('textarea');
-    questionInput.setAttribute('rows', '10');
+    questionInput.setAttribute('rows', '5');
     questionInput.setAttribute('cols', '50');
     questionInput.setAttribute('placeholder', 'Question');
     questionInput.required = true;
