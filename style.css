@@ -114,6 +114,7 @@ main .menu .grid .item img {
 
 /* Contact */
 main .contact {
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
