@@ -119,7 +119,7 @@ main .contact {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 2rem;
+    row-gap: 1rem;
 }
 
 main .contact .contact-info {

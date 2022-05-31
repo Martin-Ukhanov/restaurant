@@ -6,10 +6,10 @@ const createContact = () => {
     const contactInfo = document.createElement('div');
     contactInfo.classList.add('contact-info');
 
-    const phone = document.createElement('h1');
+    const phone = document.createElement('h2');
     phone.textContent = 'Phone: 647-283-1073';
 
-    const email = document.createElement('h1');
+    const email = document.createElement('h2');
     email.textContent = 'Email: ramenrules@gmail.com';
 
     contactInfo.appendChild(phone);
